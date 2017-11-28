@@ -7,4 +7,5 @@ target/# IDEA #
 .metadata/
 .classpath
 .project
+.DS_Store
 Servers/
