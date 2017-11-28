@@ -13,10 +13,10 @@
  <url-pattern>/XXX</url-pattern>
  <／servlet-mapping>`
 
-1. 方法2：
+2. 方法2：
     jsp内部转发
    `<jsp:forward page ="/WEB-INF/jsp/test/test.jsp" />`
 
-1. 方法3：
+3. 方法3：
  servlet内部转发
 `request.getRequestDispatcher("/WEB-INF/a.jsp").forward(request,response);`
