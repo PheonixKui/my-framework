@@ -4,8 +4,8 @@
 
 1. 方法1：   
 
-本来WEB-INF中的jsp就是无法通过地址栏访问的.所以安全.
-如果说你要访问这个文件夹中的jsp文件需要在项目的web.xml文件中去配置servlet格式。如下:
+  本来WEB-INF中的jsp就是无法通过地址栏访问的.所以安全.
+  如果说你要访问这个文件夹中的jsp文件需要在项目的web.xml文件中去配置servlet格式。如下:
 
     `<servlet>
      <servlet-name>runtain</servlet-name>
@@ -23,5 +23,5 @@
 
 3. 方法3：  
 
- servlet内部转发    
+    servlet内部转发    
 `request.getRequestDispatcher("/WEB-INF/a.jsp").forward(request,response);`
